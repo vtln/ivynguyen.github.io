@@ -1344,7 +1344,36 @@ img {
 
 }
 
+@media screen and (max-width: 991px) {
+    .portrait:nth-child(1) { 
+        order: 4; }
+
+    .portrait:nth-child(2) { 
+        order: 0; }
+
+    .portrait:nth-child(3) { 
+        order: 2; }
+
+    .portrait:nth-child(4) { 
+        order: 5; }
+
+    .portrait:nth-child(5) { 
+        order: 1; }
+        
+    .portrait:nth-child(6) { 
+        order: 4; }
+    
+    .portrait:nth-child(7) { 
+        order: 6; }
+}
+
 /* End of Laws of UX Page */
+
+.rE, .portrait {
+    margin-bottom: .8rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
 
 
 
